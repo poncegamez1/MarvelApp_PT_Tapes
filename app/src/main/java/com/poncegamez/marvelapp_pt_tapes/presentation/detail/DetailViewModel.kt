@@ -1,4 +1,4 @@
-package com.poncegamez.marvelapp_pt_tapes.detail
+package com.poncegamez.marvelapp_pt_tapes.presentation.detail
 
 import androidx.lifecycle.ViewModel
 

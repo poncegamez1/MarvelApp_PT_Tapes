@@ -1,9 +1,10 @@
-package com.poncegamez.marvelapp_pt_tapes.main
+package com.poncegamez.marvelapp_pt_tapes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.poncegamez.marvelapp_pt_tapes.R
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
