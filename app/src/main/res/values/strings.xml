@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MarvelApp_PT_Tapes</string>
+    <string name="app_name">MarvelApp</string>
+    <string name="id">Id:</string>
+    <string name="description">Description:</string>
 </resources>
