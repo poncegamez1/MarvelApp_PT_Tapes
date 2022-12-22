@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
 import com.poncegamez.marvelapp_pt_tapes.databinding.FragmentDetailBinding
+import com.squareup.picasso.Picasso
 
 class DetailFragment : Fragment() {
 
@@ -27,10 +28,10 @@ class DetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val comic = args.comic
         with(detailBinding){
-
+            titleTextView.text = comic.title
+            idTextView.text = comic.id.toString()
+            descriptionTextView.text = comic.description
+            Picasso.get().load("${comic.thumbnailPath}.${comic.thumbnailExt}").into(pictureImageView)
         }
     }
-
-
-
 }
